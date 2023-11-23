@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="product.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="sweetshop-top-container-wrapper">
+      <div class="container-with-search">
+        <a class="logo-wrap" href="http://127.0.0.1:5500/Halloween/index.html">
+          <img src="./web-logo.jpg" alt="" class="web-logo" />
+        </a>
+        <div class="header-searchbar">
+          <input
+            type="text"
+            aria-label="Tìm kiếm"
+            placeholder="Tìm kiếm..."
+            class="header-search"
+          />
+          <button
+            type="button"
+            class="searchbar-icon"
+            style="background-color: #fd4f4f; cursor: pointer"
+          >
+            <i
+              class="fa-solid fa-magnifying-glass fa-xl"
+              style="color: #31373f"
+            ></i>
+          </button>
+        </div>
+        <a class="shopping-cart-wrap">
+          <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+          <span class="shopping-cart">Giỏ hàng</span>
+        </a>
+      </div>
+    </header>
+    <div id="main">
+      <article>
+        <section class="product-detail">
+          <img src="./Bánh kẹo khác/candy.jpg" alt="" class="product-img" />
+          <div class="brief-info">
+            <span class="product-name">Kẹo mút yêu quái Halloween</span>
+            <div class="product-rate">
+              <div class="rating">
+                <div class="number-rate">5.0</div>
+                <div class="icon-star-rating">
+                  <i class="fa-solid fa-star fa-sm" style="color: #f28202"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f28202"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f28202"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f28202"></i>
+                  <i class="fa-solid fa-star fa-sm" style="color: #f28202"></i>
+                </div>
+              </div>
+              <div class="abc">|</div>
+              <div class="review">
+                <div class="review-number">72</div>
+                <div class="rev-text">Đánh giá</div>
+              </div>
+              <div class="abc">|</div>
+              <div class="sold">
+                <div class="sold-number">127</div>
+                <div class="sold-text">Đã bán</div>
+              </div>
+            </div>
+            <div class="price">
+              <span>30.000đ</span>
+            </div>
+            <div class="transport">
+              <h3 class="transport-text">Vận chuyển</h3>
+              <img
+                src="https://dvow0vltefbxy.cloudfront.net/assets/landing/carriers/ghn-df0bfc3c5c31615d7a250ff582ce58bfa85b8954034d3cd87b33c2aaf11d95e0.png"
+                alt=""
+                class="transport-logo"
+              />
+            </div>
+            <div class="product-quantity">
+              <h3 class="quantity-text">Số lượng</h3>
+              <div class="Product items-quantity">
+                <div class="quantity-input-wrap">
+                  <div class="sweetshop-input-quantity">
+                    <button aria-label="Decrease" class="down" id="decreaseQuantity" >
+                      <i class="fa-solid fa-minus" style="color: #000000"></i>
+                    </button>
+                    <div class="quantity" id="productQuantity"></div>
+                    <button aria-label="Increase" class="up" id="increaseQuantity">
+                      <i class="fa-solid fa-plus" style="color: #000000"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-available">
+                  <div>297 sản phẩm có sẵn</div>
+                </div>
+              </div>
+            </div>
+            <div class="buying-wrap">
+              <a href="http://127.0.0.1:5500/Halloween/payment/index1.html"><button class="buy-now"><p>Mua ngay</p></button></a>
+              <button class="btn"><i class="fa-solid fa-cart-shopping" style="color: #050505;"></i><p>Thêm vào giỏ hàng</p></button>
+            </div>
+          </div>
+          
+        </section>
+      <section class="shop">
+        <div class="shop-info-wrap">
+          <img src="./imgg/shop-logo.png" alt="" class="shop-logo">
+          <div class="shop-info">
+            <div class="shop-name">Hadura</div>
+            <div class="place"><i class="fa-solid fa-location-dot" style="color: #0a0a0a;"></i><p>TP.HCM</p></div>
+          </div>
+        </div>
+          
+          <div class="shop-rating-and-follow">
+            <div class="shop-rating">
+              <span>Đánh giá </span>
+              <span class="text">2,1k</span>
+            </div>
+            <div class="shop-follow">
+              <span>Theo dõi </span>
+              <span class="text">1,8k</span>
+            </div>
+          </div>
+      </section>
+      <section class="product-description">
+        <h2 description-text>Mô tả sản phẩm</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis vulputate viverra. Proin eget massa ut urna ullamcorper ultricies at non dolor. Curabitur hendrerit mattis felis, id vehicula libero placerat sit amet. Mauris iaculis ligula sit amet iaculis mattis. Proin nec lorem vel neque tristique iaculis venenatis interdum mi. Ut eget efficitur sapien, in placerat odio. Sed ac euismod orci. Vestibulum et mattis sem. Pellentesque tristique nisl et erat malesuada, ut mollis nunc porttitor. Praesent tempus dui diam, non auctor ante maximus ac.
+
+          Maecenas sollicitudin lacus eget neque porttitor malesuada. Nulla malesuada arcu pellentesque ullamcorper blandit. Integer tincidunt magna in luctus viverra. Suspendisse potenti. Maecenas tincidunt sit amet nunc sit amet euismod. Donec et pellentesque ante. Suspendisse euismod, augue nec fermentum congue, orci odio suscipit purus, ac dictum orci ligula ut ex. Suspendisse mauris elit, semper non malesuada non, gravida eget tortor. Integer eleifend nunc in nulla molestie fringilla. Sed et fermentum massa, id cursus odio. Mauris vitae eros et mi volutpat convallis ut et leo. Sed non diam ante. Nunc pharetra nec augue sed laoreet.
+          
+          Sed scelerisque accumsan varius. Nullam vitae diam nec augue lobortis maximus. Ut rutrum erat ut mollis pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in sem rhoncus, finibus sapien egestas, lobortis est. In hac habitasse platea dictumst. Donec id consequat augue. Maecenas feugiat tristique eros. Sed id purus eu leo cursus ullamcorper. Cras sem magna, tristique id urna quis, faucibus aliquam tellus. Integer congue sem lacus, a iaculis libero fringilla congue. Ut iaculis enim ipsum, vitae malesuada turpis sodales ac. Nunc facilisis libero et semper volutpat. Donec nec vulputate erat.
+          
+          Vestibulum et massa nec risus pulvinar pellentesque. Phasellus ac libero sed metus sodales vestibulum. Quisque sapien risus, eleifend a urna sed, imperdiet viverra erat. Nam pretium nec erat at consequat. Nam laoreet eget sapien quis faucibus. Duis imperdiet nisi a condimentum dapibus. Nunc aliquam viverra tellus, nec porta justo lacinia quis...
+        </p>
+      </section>
+      </article>
+      <nav></nav>
+      <aside></aside>
+    </div>
+    <footer>
+      <div class="footer-wrap">
+        <div class="web-follow">
+          <h3 class="follow-text">Theo dõi chúng tôi trên</h3>
+          <div class="facebook">
+            <i class="fa-brands fa-facebook"></i>
+            <span>Facebook</span>
+          </div>
+          <div class="Instragram">
+            <i class="fa-brands fa-square-instagram"></i>
+            <span> Instragram</span>
+          </div>
+        </div>
+        <div class="payment">
+          <h3 class="payment-text">Thanh toán</h3>
+          <div class="paying">
+            <img
+              src="https://th.bing.com/th/id/R.f50fc0b5d8d5ed9da74e5b0b5fe2ce31?rik=uV5uWO8UJxvCWQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2fmastercard%2fmastercard_PNG15.png&ehk=LbWjrsF0XauIR10NasB5ik8U1NmjZkFBZO3Ti6fNKIw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+              alt=""
+              class="payment-logo"
+            />
+            <img src="./imgg/payment2.png" alt="" class="payment-logo" />
+            <img src="./imgg/payment3.png" alt="" class="payment-logo" />
+            <img src="./imgg/payment4.png" alt="" class="payment-logo" />
+          </div>
+        </div>
+        <div class="transment">
+          <h3 class="transment-text">Đơn vị vận chuyển</h3>
+          <div class="transment-logo">
+            <img
+              src="https://dvow0vltefbxy.cloudfront.net/assets/landing/carriers/ghn-df0bfc3c5c31615d7a250ff582ce58bfa85b8954034d3cd87b33c2aaf11d95e0.png"
+              alt=""
+              class="transment-img"
+            />
+            <img
+              src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/18/47/ab/1847ab81-384b-fa47-2ce1-ecfc22e67ff1/source/512x512bb.jpg"
+              alt=""
+              class="transment-img"
+            />
+            <img
+              src="https://s3.amazonaws.com/i3.cleantech/uploads/company/company_logo/25/419125/jtexpress.png"
+              alt=""
+              class="transment-img"
+            /><br />
+            <img
+              src="https://i2.wp.com/www.swirlingovercoffee.com/wp-content/uploads/2015/10/GrabExpress_Logo_Horizontal_WhiteBackground_tagline.jpg"
+              alt=""
+              class="transment-img"
+            />
+            <img
+              src="https://viettelpost.com.vn/wp-content/uploads/2021/05/Logo-Viettel-Post.jpg"
+              alt=""
+              class="transment-img"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./product.js"></script>
+  </body>
+</html>

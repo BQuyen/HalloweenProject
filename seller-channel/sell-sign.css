@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/R.29d327c01416fadd9b29fd1247f59092?rik=49%2fSO2ZZTq2cEg&riu=http%3a%2f%2feduplay.edu.vn%2fwp-content%2fuploads%2f2016%2f10%2fhalloween-wallpaper-hd-2016.jpg&ehk=az6JfmtBbIgPa9c8MCWQzlN6aVIpf6tJ8%2foOAFxkbCE%3d&risl=&pid=ImgRaw&r=0);
+}
+.form_login{
+    width: 370px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcf8f8;
+    border-radius: 5px;
+}
+
+.log{
+    margin-top: 10px;
+    padding: 7px 15px;
+    width: 90px;
+    background-color: #ff8181 ;
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+}
+.log:hover{
+    background-color: #f6a6a6;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.form-message{
+    color: red;
+    display: none;
+}
+label{
+    font-size: 1.2rem;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+h1{
+    margin-top: 18px;
+    text-align: center;
+}
+.sign-in{
+    text-decoration: none;
+    color: rgb(10, 76, 241);
+}
+.sign-in:hover{
+    color: red;
+}
+p{
+    margin-top: 12px;
+}

@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://thumbs.dreamstime.com/b/black-white-grunge-abstract-halloween-seamless-pattern-background-spiderwebs-halloween-black-white-grunge-background-138492629.jpg);
+}
+.form_login{
+    width: 370px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(176, 173, 173);
+    border-radius: 5px;
+}
+
+.log{
+    margin-top: 6px;
+    padding: 7px 15px;
+    width: 90px;
+    background-color: #ff8181 ;
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+}
+.log:hover{
+    background-color: #f6a6a6;
+    cursor: pointer;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.form-message{
+    color: red;
+    display: none;
+}
+label{
+    font-size: 1.2rem;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+h1{
+    margin-top: 18px;
+    text-align: center;
+}
+.sign-in{
+    text-decoration: none;
+    color: rgb(10, 76, 241);
+}
+.sign-in:hover{
+    color: red;
+}
+p{
+    margin-top: 6px;
+}
